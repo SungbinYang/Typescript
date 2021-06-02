@@ -27,3 +27,14 @@
   - Structural Type System vs Nominal Type System
   - 타입 호환성
   - 타입 별칭
+
+## TypeScript Compiler
+  - Compilation Context
+  - tsconfig schema
+  - compileOnSave
+  - extends
+  - files, include, exclude
+  - compileOptions-typeRoots, type
+  - compileOptions-target과 lib
+  - compileOptions-outDir, outFile, rootDir
+  - compileOptions-strict
