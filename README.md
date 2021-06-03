@@ -38,3 +38,12 @@
   - compileOptions-target과 lib
   - compileOptions-outDir, outFile, rootDir
   - compileOptions-strict
+## Interface
+  - What are Interfaces
+  - optional property
+  - function in interface
+  - class implements interface
+  - interface extends interface
+  - function interface
+  - Readonly interface Properties
+  - type alias vs interface
