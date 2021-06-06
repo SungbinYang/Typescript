@@ -1,7 +1,7 @@
 interface Person3 {
   name: string;
   age?: number; // optional property
-  [index: string]: any; // indexable type, optional type
+  [index: string]: any; // indexable type, optional type, index 타입을는 숫자 또는 문자열로 사용이 가능하다
 }
 
 function hello3(person : Person3): void {
