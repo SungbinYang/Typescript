@@ -1,23 +1,11 @@
 class Person {
-  public name: string = "Rovert";
-  private age!: number; // 개발자가 어디선가 값을 할당할것이라고 의도적으로 명시하기 위해 !붙여놓음 생성자에 할당할 경우 !생략 가능
 
-  public constructor(age?: number) { // constructor에서는 async를 할수 없다.
-    if (age === undefined) {
-      this.age = 20;
-    } else {
-      this.age = age;
-    }
-  }
-
-  public async init() {
-
+  public constructor(public name: string, private age: number) { // constructor에서는 async를 할수 없다.
+    
   }
 }
 
-const p1: Person = new Person(26);
-// await p1.init();
-const p2: Person = new Person();
+const p1: Person = new Person("Rovert", 26);
 
 console.log(p1);
 // p1.age = 26;
